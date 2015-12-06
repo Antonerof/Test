@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.dao.mybatis.util.FilteredEventsSqlBuilderTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:35" hostname="Desktop" time="0.007">
+  <properties/>
+  <testcase name="shouldBuildSqlQueryByDateCityIdEventIdAndPagination" classname="org.itevents.dao.mybatis.util.FilteredEventsSqlBuilderTest" time="0.005"/>
+  <testcase name="shouldBuiltSqlQueryByFewTechnologiesAndPagination" classname="org.itevents.dao.mybatis.util.FilteredEventsSqlBuilderTest" time="0.001"/>
+  <testcase name="shouldBuildSqlQueryWithEmptyParametersAndPagination" classname="org.itevents.dao.mybatis.util.FilteredEventsSqlBuilderTest" time="0.001"/>
+  <testcase name="shouldBuildSqlQueryByDateCityIdPriceAndPagination" classname="org.itevents.dao.mybatis.util.FilteredEventsSqlBuilderTest" time="0.0"/>
+  <testcase name="shouldBuildSqlQueryWithPaginationToGetEventsInRadius" classname="org.itevents.dao.mybatis.util.FilteredEventsSqlBuilderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:35 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+дек 04, 2015 10:45:35 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4bf19bc4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@16b0f93, org.springframework.test.context.support.DirtiesContextTestExecutionListener@316e4e7f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@30a4b01b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@77cc2270, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@2e02ac8d]
+дек 04, 2015 10:45:35 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+дек 04, 2015 10:45:35 AM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@6ddc1284: startup date [Fri Dec 04 10:45:35 EET 2015]; root of context hierarchy
+дек 04, 2015 10:45:35 AM org.springframework.context.support.PropertySourcesPlaceholderConfigurer loadProperties
+INFO: Loading properties file from URL [file:/E:/Dropbox/Dropbox/Java/itevents-travis/restservice/build/resources/main/local.properties]
+дек 04, 2015 10:45:35 AM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+дек 04, 2015 10:45:35 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.postgresql.Driver
+]]></system-err>
+</testsuite>

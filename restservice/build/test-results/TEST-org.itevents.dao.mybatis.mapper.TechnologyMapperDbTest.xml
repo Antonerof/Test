@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.dao.mybatis.mapper.TechnologyMapperDbTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:26" hostname="Desktop" time="2.946">
+  <properties/>
+  <testcase name="shouldFindTechnologyById" classname="org.itevents.dao.mybatis.mapper.TechnologyMapperDbTest" time="0.159"/>
+  <testcase name="shouldThrowDuplicateKeyExceptionWhenAddExistingTechnology" classname="org.itevents.dao.mybatis.mapper.TechnologyMapperDbTest" time="0.337"/>
+  <testcase name="expectNullWhenTechnologyIsAbsent" classname="org.itevents.dao.mybatis.mapper.TechnologyMapperDbTest" time="0.666"/>
+  <testcase name="shouldGetAllTechnologies" classname="org.itevents.dao.mybatis.mapper.TechnologyMapperDbTest" time="0.258"/>
+  <testcase name="shouldRemoveTechnology" classname="org.itevents.dao.mybatis.mapper.TechnologyMapperDbTest" time="0.152"/>
+  <testcase name="shouldFindTechnologiesInGivenEvent" classname="org.itevents.dao.mybatis.mapper.TechnologyMapperDbTest" time="0.277"/>
+  <testcase name="shouldAddTechnology" classname="org.itevents.dao.mybatis.mapper.TechnologyMapperDbTest" time="0.151"/>
+  <testcase name="shouldNotRemoveTechnologyThatIsNotExisting" classname="org.itevents.dao.mybatis.mapper.TechnologyMapperDbTest" time="0.426"/>
+  <testcase name="shouldFindTechnologiesByName" classname="org.itevents.dao.mybatis.mapper.TechnologyMapperDbTest" time="0.51"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:26 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1598302f, com.github.springtestdbunit.TransactionDbUnitTestExecutionListener@200cef7d]
+]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.service.transactional.MyBatisCityServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:35" hostname="Desktop" time="0.024">
+  <properties/>
+  <testcase name="shouldAddCity" classname="org.itevents.service.transactional.MyBatisCityServiceTest" time="0.015"/>
+  <testcase name="shouldRemoveCity" classname="org.itevents.service.transactional.MyBatisCityServiceTest" time="0.002"/>
+  <testcase name="shouldFindCityById" classname="org.itevents.service.transactional.MyBatisCityServiceTest" time="0.002"/>
+  <testcase name="shouldGetAllCities" classname="org.itevents.service.transactional.MyBatisCityServiceTest" time="0.002"/>
+  <testcase name="shouldNotRemoveNonExistingCity" classname="org.itevents.service.transactional.MyBatisCityServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:35 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+дек 04, 2015 10:45:35 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b27a940, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@322d3537, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7b25afe9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5b23b78d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1d086800, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@4657721b]
+]]></system-err>
+</testsuite>

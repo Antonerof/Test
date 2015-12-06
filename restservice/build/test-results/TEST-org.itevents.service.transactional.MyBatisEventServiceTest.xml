@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.service.transactional.MyBatisEventServiceTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:35" hostname="Desktop" time="0.073">
+  <properties/>
+  <testcase name="shouldNotRemoveNonExistingEvent" classname="org.itevents.service.transactional.MyBatisEventServiceTest" time="0.027"/>
+  <testcase name="shouldFindEventById" classname="org.itevents.service.transactional.MyBatisEventServiceTest" time="0.001"/>
+  <testcase name="shouldReturnEventsByUser" classname="org.itevents.service.transactional.MyBatisEventServiceTest" time="0.001"/>
+  <testcase name="shouldAssignToEvent" classname="org.itevents.service.transactional.MyBatisEventServiceTest" time="0.003"/>
+  <testcase name="shouldFindEventsByParameter" classname="org.itevents.service.transactional.MyBatisEventServiceTest" time="0.002"/>
+  <testcase name="shouldRemoveEvent" classname="org.itevents.service.transactional.MyBatisEventServiceTest" time="0.003"/>
+  <testcase name="shouldNotFindEventsByParameter" classname="org.itevents.service.transactional.MyBatisEventServiceTest" time="0.027"/>
+  <testcase name="shouldGetAllEvents" classname="org.itevents.service.transactional.MyBatisEventServiceTest" time="0.002"/>
+  <testcase name="shouldUnassignUserFromEvent" classname="org.itevents.service.transactional.MyBatisEventServiceTest" time="0.002"/>
+  <testcase name="shouldAddEvent" classname="org.itevents.service.transactional.MyBatisEventServiceTest" time="0.001"/>
+  <system-out><![CDATA[10:45:35.952 [Test worker] ERROR org.itevents.service.transactional.MyBatisEventService - getFilteredEvents Exception :
+java.lang.Exception
+]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:35 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+дек 04, 2015 10:45:35 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5d467eef, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@63ad799e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@48585050, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d2cdb1b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f37157, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@b9a893e]
+]]></system-err>
+</testsuite>

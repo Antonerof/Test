@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.controller.UserRestControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:07" hostname="Desktop" time="0.303">
+  <properties/>
+  <testcase name="shouldReturnEventsByUser" classname="org.itevents.controller.UserRestControllerTest" time="0.086"/>
+  <testcase name="shouldDeactivateSubscription" classname="org.itevents.controller.UserRestControllerTest" time="0.039"/>
+  <testcase name="shouldNotRegisterExistingSubscriber" classname="org.itevents.controller.UserRestControllerTest" time="0.073"/>
+  <testcase name="shouldAddFilterForSubscription" classname="org.itevents.controller.UserRestControllerTest" time="0.038"/>
+  <testcase name="shouldRegisterNewSubscriber" classname="org.itevents.controller.UserRestControllerTest" time="0.065"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/{user_id}/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.Event>> org.itevents.controller.UserRestController.getEventsByUser(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/{user_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.User> org.itevents.controller.UserRestController.getUserById(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/logout],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.itevents.controller.UserRestController.logout()
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.itevents.controller.UserRestController.login()
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/register],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.registerNewSubscriber(java.lang.String,java.lang.String)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/subscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.activateSubscription(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/unsubscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.deactivateSubscription()
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@24ccebe5
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 1 ms
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/{user_id}/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.Event>> org.itevents.controller.UserRestController.getEventsByUser(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/{user_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.User> org.itevents.controller.UserRestController.getUserById(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/logout],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.itevents.controller.UserRestController.logout()
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.itevents.controller.UserRestController.login()
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/register],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.registerNewSubscriber(java.lang.String,java.lang.String)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/subscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.activateSubscription(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/unsubscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.deactivateSubscription()
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@51456900
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 1 ms
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/{user_id}/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.Event>> org.itevents.controller.UserRestController.getEventsByUser(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/{user_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.User> org.itevents.controller.UserRestController.getUserById(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/logout],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.itevents.controller.UserRestController.logout()
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.itevents.controller.UserRestController.login()
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/register],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.registerNewSubscriber(java.lang.String,java.lang.String)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/subscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.activateSubscription(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/unsubscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.deactivateSubscription()
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@399e8c53
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/{user_id}/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.Event>> org.itevents.controller.UserRestController.getEventsByUser(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/{user_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.User> org.itevents.controller.UserRestController.getUserById(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/logout],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.itevents.controller.UserRestController.logout()
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.itevents.controller.UserRestController.login()
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/register],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.registerNewSubscriber(java.lang.String,java.lang.String)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/subscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.activateSubscription(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/unsubscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.deactivateSubscription()
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4dcf29bc
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/{user_id}/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.Event>> org.itevents.controller.UserRestController.getEventsByUser(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/{user_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.User> org.itevents.controller.UserRestController.getUserById(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/logout],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.itevents.controller.UserRestController.logout()
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.itevents.controller.UserRestController.login()
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/register],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.registerNewSubscriber(java.lang.String,java.lang.String)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/subscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.activateSubscription(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/users/unsubscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.deactivateSubscription()
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@6f6f7493
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 1 ms
+]]></system-err>
+</testsuite>

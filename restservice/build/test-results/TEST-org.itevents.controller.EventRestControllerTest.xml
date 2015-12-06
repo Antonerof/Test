@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.controller.EventRestControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:05" hostname="Desktop" time="1.538">
+  <properties/>
+  <testcase name="shouldReturnUsersByEvent" classname="org.itevents.controller.EventRestControllerTest" time="0.909"/>
+  <testcase name="shouldFindEventById" classname="org.itevents.controller.EventRestControllerTest" time="0.443"/>
+  <testcase name="shouldAssignUserToEvent" classname="org.itevents.controller.EventRestControllerTest" time="0.058"/>
+  <testcase name="shouldNotAssignUserToEventIfEventDateIsPassed" classname="org.itevents.controller.EventRestControllerTest" time="0.047"/>
+  <testcase name="shouldUnassignUserFromEvent" classname="org.itevents.controller.EventRestControllerTest" time="0.045"/>
+  <testcase name="shouldNotAssignUserToEventIfEventIsAbsent" classname="org.itevents.controller.EventRestControllerTest" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:05 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/assign],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.assign(int)
+дек 04, 2015 10:45:05 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/unassign],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.unassign(int)
+дек 04, 2015 10:45:05 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/visitors],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.User>> org.itevents.controller.EventRestController.getUsersByEvent(int)
+дек 04, 2015 10:45:05 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.Event> org.itevents.controller.EventRestController.getEventById(int)
+дек 04, 2015 10:45:05 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<org.itevents.model.Event> org.itevents.controller.EventRestController.getFilteredEvents(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:05 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@9055ad
+дек 04, 2015 10:45:05 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:05 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:05 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+дек 04, 2015 10:45:06 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/assign],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.assign(int)
+дек 04, 2015 10:45:06 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/unassign],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.unassign(int)
+дек 04, 2015 10:45:06 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/visitors],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.User>> org.itevents.controller.EventRestController.getUsersByEvent(int)
+дек 04, 2015 10:45:06 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.Event> org.itevents.controller.EventRestController.getEventById(int)
+дек 04, 2015 10:45:06 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<org.itevents.model.Event> org.itevents.controller.EventRestController.getFilteredEvents(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:06 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@878089c
+дек 04, 2015 10:45:06 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:06 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:06 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/assign],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.assign(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/unassign],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.unassign(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/visitors],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.User>> org.itevents.controller.EventRestController.getUsersByEvent(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.Event> org.itevents.controller.EventRestController.getEventById(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<org.itevents.model.Event> org.itevents.controller.EventRestController.getFilteredEvents(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@560a44e8
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/assign],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.assign(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/unassign],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.unassign(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/visitors],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.User>> org.itevents.controller.EventRestController.getUsersByEvent(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.Event> org.itevents.controller.EventRestController.getEventById(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<org.itevents.model.Event> org.itevents.controller.EventRestController.getFilteredEvents(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5c176f64
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/assign],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.assign(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/unassign],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.unassign(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/visitors],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.User>> org.itevents.controller.EventRestController.getUsersByEvent(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.Event> org.itevents.controller.EventRestController.getEventById(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<org.itevents.model.Event> org.itevents.controller.EventRestController.getFilteredEvents(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@512b23b0
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 1 ms
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/assign],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.assign(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/unassign],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.unassign(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/visitors],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.itevents.model.User>> org.itevents.controller.EventRestController.getUsersByEvent(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<org.itevents.model.Event> org.itevents.controller.EventRestController.getEventById(int)
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<org.itevents.model.Event> org.itevents.controller.EventRestController.getFilteredEvents(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@38f95794
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+]]></system-err>
+</testsuite>

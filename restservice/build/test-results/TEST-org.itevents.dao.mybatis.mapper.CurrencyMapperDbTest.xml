@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.dao.mybatis.mapper.CurrencyMapperDbTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:11" hostname="Desktop" time="1.289">
+  <properties/>
+  <testcase name="shouldNotRemoveAbsentCurrency" classname="org.itevents.dao.mybatis.mapper.CurrencyMapperDbTest" time="0.191"/>
+  <testcase name="shouldGetAllCurrencies" classname="org.itevents.dao.mybatis.mapper.CurrencyMapperDbTest" time="0.22"/>
+  <testcase name="expectNullWhenCurrencyIsAbsent" classname="org.itevents.dao.mybatis.mapper.CurrencyMapperDbTest" time="0.211"/>
+  <testcase name="shouldAddCurrency" classname="org.itevents.dao.mybatis.mapper.CurrencyMapperDbTest" time="0.163"/>
+  <testcase name="shouldThrowDuplicateKeyExceptionWhenCurrencyIsExisting" classname="org.itevents.dao.mybatis.mapper.CurrencyMapperDbTest" time="0.247"/>
+  <testcase name="shouldFindCurrencyById" classname="org.itevents.dao.mybatis.mapper.CurrencyMapperDbTest" time="0.106"/>
+  <testcase name="shouldRemoveCurrency" classname="org.itevents.dao.mybatis.mapper.CurrencyMapperDbTest" time="0.146"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:11 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@59b1906f, com.github.springtestdbunit.TransactionDbUnitTestExecutionListener@660355ec]
+]]></system-err>
+</testsuite>

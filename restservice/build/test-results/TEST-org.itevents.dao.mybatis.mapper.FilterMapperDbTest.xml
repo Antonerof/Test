@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.dao.mybatis.mapper.FilterMapperDbTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:22" hostname="Desktop" time="2.223">
+  <properties/>
+  <testcase name="shouldAddFilter" classname="org.itevents.dao.mybatis.mapper.FilterMapperDbTest" time="0.347"/>
+  <testcase name="shouldGetAllFilters" classname="org.itevents.dao.mybatis.mapper.FilterMapperDbTest" time="0.229"/>
+  <testcase name="expectNullWhenFilterIsAbsent" classname="org.itevents.dao.mybatis.mapper.FilterMapperDbTest" time="0.288"/>
+  <testcase name="shouldFindLastFilterOfUser" classname="org.itevents.dao.mybatis.mapper.FilterMapperDbTest" time="0.578"/>
+  <testcase name="shouldFindFilterById" classname="org.itevents.dao.mybatis.mapper.FilterMapperDbTest" time="0.253"/>
+  <testcase name="shouldAddTechnologiesToFilterTechnologyTable" classname="org.itevents.dao.mybatis.mapper.FilterMapperDbTest" time="0.524"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:22 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7086b43f, com.github.springtestdbunit.TransactionDbUnitTestExecutionListener@14f683fe]
+]]></system-err>
+</testsuite>

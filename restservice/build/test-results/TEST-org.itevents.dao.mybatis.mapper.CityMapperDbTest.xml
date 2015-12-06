@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.dao.mybatis.mapper.CityMapperDbTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:08" hostname="Desktop" time="3.127">
+  <properties/>
+  <testcase name="shouldAddCity" classname="org.itevents.dao.mybatis.mapper.CityMapperDbTest" time="1.104"/>
+  <testcase name="shouldRemoveCity" classname="org.itevents.dao.mybatis.mapper.CityMapperDbTest" time="0.457"/>
+  <testcase name="expectNullWhenCityIsAbsent" classname="org.itevents.dao.mybatis.mapper.CityMapperDbTest" time="0.415"/>
+  <testcase name="shouldThrowDuplicateKeyExceptionWhenAddExistingCity" classname="org.itevents.dao.mybatis.mapper.CityMapperDbTest" time="0.547"/>
+  <testcase name="shouldFindCityById" classname="org.itevents.dao.mybatis.mapper.CityMapperDbTest" time="0.158"/>
+  <testcase name="shouldGetAllCities" classname="org.itevents.dao.mybatis.mapper.CityMapperDbTest" time="0.233"/>
+  <testcase name="shouldNotRemoveAbsentCity" classname="org.itevents.dao.mybatis.mapper.CityMapperDbTest" time="0.203"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:07 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d594b9e, com.github.springtestdbunit.TransactionDbUnitTestExecutionListener@6cd61baa]
+дек 04, 2015 10:45:07 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+дек 04, 2015 10:45:07 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContextTestAddon.xml]
+дек 04, 2015 10:45:07 AM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'userService': replacing [Generic bean: class [org.itevents.service.transactional.MyBatisUserService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Dropbox\Dropbox\Java\itevents-travis\restservice\build\classes\main\org\itevents\service\transactional\MyBatisUserService.class]] with [Generic bean: class [org.mockito.Mockito]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=mock; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContextTestAddon.xml]]
+дек 04, 2015 10:45:07 AM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'roleService': replacing [Generic bean: class [org.itevents.service.transactional.MyBatisRoleService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Dropbox\Dropbox\Java\itevents-travis\restservice\build\classes\main\org\itevents\service\transactional\MyBatisRoleService.class]] with [Generic bean: class [org.mockito.Mockito]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=mock; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContextTestAddon.xml]]
+дек 04, 2015 10:45:07 AM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'eventService': replacing [Generic bean: class [org.itevents.service.transactional.MyBatisEventService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Dropbox\Dropbox\Java\itevents-travis\restservice\build\classes\main\org\itevents\service\transactional\MyBatisEventService.class]] with [Generic bean: class [org.mockito.Mockito]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=mock; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContextTestAddon.xml]]
+дек 04, 2015 10:45:07 AM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'visitLogService': replacing [Generic bean: class [org.itevents.service.transactional.MyBatisVisitLogService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Dropbox\Dropbox\Java\itevents-travis\restservice\build\classes\main\org\itevents\service\transactional\MyBatisVisitLogService.class]] with [Generic bean: class [org.mockito.Mockito]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=mock; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContextTestAddon.xml]]
+дек 04, 2015 10:45:07 AM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'filterService': replacing [Generic bean: class [org.itevents.service.transactional.MyBatisFilterService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Dropbox\Dropbox\Java\itevents-travis\restservice\build\classes\main\org\itevents\service\transactional\MyBatisFilterService.class]] with [Generic bean: class [org.mockito.Mockito]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=mock; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContextTestAddon.xml]]
+дек 04, 2015 10:45:07 AM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@22f0184f: startup date [Fri Dec 04 10:45:07 EET 2015]; root of context hierarchy
+дек 04, 2015 10:45:07 AM org.springframework.context.support.PropertySourcesPlaceholderConfigurer loadProperties
+INFO: Loading properties file from URL [file:/E:/Dropbox/Dropbox/Java/itevents-travis/restservice/build/resources/main/local.properties]
+дек 04, 2015 10:45:07 AM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+дек 04, 2015 10:45:07 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.postgresql.Driver
+дек 04, 2015 10:45:10 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+дек 04, 2015 10:45:10 AM org.springframework.jdbc.support.SQLErrorCodesFactory <init>
+INFO: SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.dao.mybatis.mapper.UserMapperDbTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:29" hostname="Desktop" time="2.536">
+  <properties/>
+  <testcase name="shouldUpdateUser" classname="org.itevents.dao.mybatis.mapper.UserMapperDbTest" time="0.211"/>
+  <testcase name="shouldReturnUsersByEvent" classname="org.itevents.dao.mybatis.mapper.UserMapperDbTest" time="0.905"/>
+  <testcase name="shouldAddUser" classname="org.itevents.dao.mybatis.mapper.UserMapperDbTest" time="0.303"/>
+  <testcase name="shouldFindUserByName" classname="org.itevents.dao.mybatis.mapper.UserMapperDbTest" time="0.337"/>
+  <testcase name="expectNullWhenUserIsAbsent" classname="org.itevents.dao.mybatis.mapper.UserMapperDbTest" time="0.302"/>
+  <testcase name="shouldGetAllUsers" classname="org.itevents.dao.mybatis.mapper.UserMapperDbTest" time="0.18"/>
+  <testcase name="shouldFindUserById" classname="org.itevents.dao.mybatis.mapper.UserMapperDbTest" time="0.291"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:29 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@41eb09e5, com.github.springtestdbunit.TransactionDbUnitTestExecutionListener@445a5438]
+]]></system-err>
+</testsuite>

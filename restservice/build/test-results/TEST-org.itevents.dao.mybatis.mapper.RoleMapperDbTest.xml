@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.dao.mybatis.mapper.RoleMapperDbTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:25" hostname="Desktop" time="1.246">
+  <properties/>
+  <testcase name="shouldAddRole" classname="org.itevents.dao.mybatis.mapper.RoleMapperDbTest" time="0.289"/>
+  <testcase name="shouldRemoveRole" classname="org.itevents.dao.mybatis.mapper.RoleMapperDbTest" time="0.319"/>
+  <testcase name="shouldGetAllRoles" classname="org.itevents.dao.mybatis.mapper.RoleMapperDbTest" time="0.342"/>
+  <testcase name="shouldNotFindRoleWhenRoleIsAbsent" classname="org.itevents.dao.mybatis.mapper.RoleMapperDbTest" time="0.158"/>
+  <testcase name="shouldFindRoleById" classname="org.itevents.dao.mybatis.mapper.RoleMapperDbTest" time="0.133"/>
+  <system-out><![CDATA[
+]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:25 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5810bbae, com.github.springtestdbunit.TransactionDbUnitTestExecutionListener@24228af8]
+]]></system-err>
+</testsuite>

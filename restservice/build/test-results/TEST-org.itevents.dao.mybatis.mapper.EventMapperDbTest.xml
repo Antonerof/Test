@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.dao.mybatis.mapper.EventMapperDbTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:12" hostname="Desktop" time="10.394">
+  <properties/>
+  <testcase name="testFindEventById" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.329"/>
+  <testcase name="shouldFindPayedEventsInBoyarka" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.46"/>
+  <testcase name="shouldReturnEventsByUser" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.604"/>
+  <testcase name="shouldRemoveTechnologiesFromEventTechnologyTable" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.78"/>
+  <testcase name="expectNullWhenEventIsAbsent" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.444"/>
+  <testcase name="shouldFindEventsWithDefaultParameters" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.587"/>
+  <testcase name="shouldAssignUserToEvent" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.487"/>
+  <testcase name="shouldRemoveEvent" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.514"/>
+  <testcase name="shouldFindEventsWithDefaultPagination" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.361"/>
+  <testcase name="shouldFindEventsInKyivWithTechnologyJava" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.32"/>
+  <testcase name="shouldFindEventsWithTechnologyPhpOrAntOrSql" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="1.377"/>
+  <testcase name="shouldAddTechnologiesToEventTechnologyTable" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="1.624"/>
+  <testcase name="shouldFindEventsInRadiusWithGivenCenter" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.86"/>
+  <testcase name="shouldFindEventsWithPage3ItemsPerPage2" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.255"/>
+  <testcase name="shouldGetAllEvents" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.543"/>
+  <testcase name="shouldUnassignUserFromEvent" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.367"/>
+  <testcase name="shouldAddEvent" classname="org.itevents.dao.mybatis.mapper.EventMapperDbTest" time="0.47"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:12 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@30b4718d, com.github.springtestdbunit.TransactionDbUnitTestExecutionListener@3936bd2e]
+]]></system-err>
+</testsuite>

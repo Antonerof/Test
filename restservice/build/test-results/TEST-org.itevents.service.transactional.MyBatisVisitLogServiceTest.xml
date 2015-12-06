@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.service.transactional.MyBatisVisitLogServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:36" hostname="Desktop" time="0.03">
+  <properties/>
+  <testcase name="shouldFindVisitlogById" classname="org.itevents.service.transactional.MyBatisVisitLogServiceTest" time="0.015"/>
+  <testcase name="shouldNotRemoveVisitlogWhenItIsNotExisting" classname="org.itevents.service.transactional.MyBatisVisitLogServiceTest" time="0.001"/>
+  <testcase name="shouldRemoveVisitlog" classname="org.itevents.service.transactional.MyBatisVisitLogServiceTest" time="0.004"/>
+  <testcase name="shouldGetAllVisitlogs" classname="org.itevents.service.transactional.MyBatisVisitLogServiceTest" time="0.001"/>
+  <testcase name="shouldAddVisitlog" classname="org.itevents.service.transactional.MyBatisVisitLogServiceTest" time="0.002"/>
+  <testcase name="shouldFindVisitLogsByEvent" classname="org.itevents.service.transactional.MyBatisVisitLogServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:36 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+дек 04, 2015 10:45:36 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@528788d2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ae58214, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6ac1cced, org.springframework.test.context.transaction.TransactionalTestExecutionListener@38b1ec97, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@569e224b, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@209dffae]
+]]></system-err>
+</testsuite>

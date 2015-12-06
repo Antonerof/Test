@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.controller.VisitLogRestControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:07" hostname="Desktop" time="0.101">
+  <properties/>
+  <testcase name="shouldAddVisitLogToEventJavaWithAnonymous" classname="org.itevents.controller.VisitLogRestControllerTest" time="0.059"/>
+  <testcase name="shouldNotFoundIfEventIsAbsent" classname="org.itevents.controller.VisitLogRestControllerTest" time="0.042"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/register],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> org.itevents.controller.VisitLogRestController.redirectToEventSite(int)
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@2e96f76b
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/events/{event_id}/register],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> org.itevents.controller.VisitLogRestController.redirectToEventSite(int)
+дек 04, 2015 10:45:07 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5d559d06
+дек 04, 2015 10:45:07 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:07 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+]]></system-err>
+</testsuite>

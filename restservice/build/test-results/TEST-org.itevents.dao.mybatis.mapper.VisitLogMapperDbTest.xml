@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itevents.dao.mybatis.mapper.VisitLogMapperDbTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2015-12-04T08:45:31" hostname="Desktop" time="3.643">
+  <properties/>
+  <testcase name="shouldFindVisitLogByEvent" classname="org.itevents.dao.mybatis.mapper.VisitLogMapperDbTest" time="1.24"/>
+  <testcase name="shouldRemoveVisitLog" classname="org.itevents.dao.mybatis.mapper.VisitLogMapperDbTest" time="0.371"/>
+  <testcase name="shouldGetAllVisitLogs" classname="org.itevents.dao.mybatis.mapper.VisitLogMapperDbTest" time="0.847"/>
+  <testcase name="shouldFindVisitLogById" classname="org.itevents.dao.mybatis.mapper.VisitLogMapperDbTest" time="0.399"/>
+  <testcase name="shouldAddVisitLog" classname="org.itevents.dao.mybatis.mapper.VisitLogMapperDbTest" time="0.541"/>
+  <testcase name="expectNullWhenVisitLogIsAbsent" classname="org.itevents.dao.mybatis.mapper.VisitLogMapperDbTest" time="0.237"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[дек 04, 2015 10:45:31 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5de1958a, com.github.springtestdbunit.TransactionDbUnitTestExecutionListener@70704196]
+]]></system-err>
+</testsuite>

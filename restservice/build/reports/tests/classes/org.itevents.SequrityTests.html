@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.itevents.SequrityTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.itevents.SequrityTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.itevents.html">org.itevents</a> &gt; SequrityTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">8.431s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldDenyAccessToAdminForAnonymous</td>
+<td>0.352s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldDenyAccessToAdminForSubscriber</td>
+<td>0.391s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldDenyAccessToRegisterNewSubscriberForAuthorizedSubscriber</td>
+<td>0.477s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGrantAccessToAdminForAdmin</td>
+<td>1.306s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGrantAccessToIndexForAnonymous</td>
+<td>2.538s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGrantAccessToRegisterNewSubscriberForAnonymous</td>
+<td>0.944s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldLoginWithCorrectPassword</td>
+<td>0.604s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldLogout</td>
+<td>1.101s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldNotLoginWithWrongPassword</td>
+<td>0.718s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>дек 04, 2015 10:44:33 AM org.springframework.test.context.web.WebTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1ba823c4, com.github.springtestdbunit.TransactionDbUnitTestExecutionListener@116968ae, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@35cd69e1]
+дек 04, 2015 10:44:34 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+дек 04, 2015 10:44:35 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContextTestAddon.xml]
+дек 04, 2015 10:44:35 AM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'userService': replacing [Generic bean: class [org.itevents.service.transactional.MyBatisUserService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Dropbox\Dropbox\Java\itevents-travis\restservice\build\classes\main\org\itevents\service\transactional\MyBatisUserService.class]] with [Generic bean: class [org.mockito.Mockito]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=mock; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContextTestAddon.xml]]
+дек 04, 2015 10:44:35 AM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'roleService': replacing [Generic bean: class [org.itevents.service.transactional.MyBatisRoleService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Dropbox\Dropbox\Java\itevents-travis\restservice\build\classes\main\org\itevents\service\transactional\MyBatisRoleService.class]] with [Generic bean: class [org.mockito.Mockito]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=mock; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContextTestAddon.xml]]
+дек 04, 2015 10:44:35 AM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'eventService': replacing [Generic bean: class [org.itevents.service.transactional.MyBatisEventService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Dropbox\Dropbox\Java\itevents-travis\restservice\build\classes\main\org\itevents\service\transactional\MyBatisEventService.class]] with [Generic bean: class [org.mockito.Mockito]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=mock; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContextTestAddon.xml]]
+дек 04, 2015 10:44:35 AM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'visitLogService': replacing [Generic bean: class [org.itevents.service.transactional.MyBatisVisitLogService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Dropbox\Dropbox\Java\itevents-travis\restservice\build\classes\main\org\itevents\service\transactional\MyBatisVisitLogService.class]] with [Generic bean: class [org.mockito.Mockito]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=mock; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContextTestAddon.xml]]
+дек 04, 2015 10:44:35 AM org.springframework.beans.factory.support.DefaultListableBeanFactory registerBeanDefinition
+INFO: Overriding bean definition for bean 'filterService': replacing [Generic bean: class [org.itevents.service.transactional.MyBatisFilterService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Dropbox\Dropbox\Java\itevents-travis\restservice\build\classes\main\org\itevents\service\transactional\MyBatisFilterService.class]] with [Generic bean: class [org.mockito.Mockito]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=mock; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContextTestAddon.xml]]
+дек 04, 2015 10:44:35 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:/E:/Dropbox/Dropbox/Java/itevents-travis/restservice/build/resources/main/mvc-dispatcher-servlet.xml]
+дек 04, 2015 10:44:36 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:/E:/Dropbox/Dropbox/Java/itevents-travis/restservice/build/resources/main/spring-security.xml]
+дек 04, 2015 10:44:36 AM org.springframework.security.core.SpringSecurityCoreVersion performVersionChecks
+INFO: You are running with Spring Security Core 4.0.2.RELEASE
+дек 04, 2015 10:44:36 AM org.springframework.security.config.SecurityNamespaceHandler &lt;init&gt;
+INFO: Spring Security 'config' module version is 4.0.2.RELEASE
+дек 04, 2015 10:44:36 AM org.springframework.security.config.method.GlobalMethodSecurityBeanDefinitionParser parse
+INFO: Expressions were enabled for method security but no SecurityExpressionHandler was configured. All hasPermision() expressions will evaluate to false.
+дек 04, 2015 10:44:36 AM org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser parseInterceptUrlsForFilterInvocationRequestMap
+INFO: Creating access control expression attribute 'hasRole(&quot;admin&quot;)' for /admin**
+дек 04, 2015 10:44:36 AM org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser parseInterceptUrlsForFilterInvocationRequestMap
+INFO: Creating access control expression attribute 'isAnonymous()' for /users/register
+дек 04, 2015 10:44:36 AM org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser parseInterceptUrlsForFilterInvocationRequestMap
+INFO: Creating access control expression attribute 'isAuthenticated()' for /events/*/assign
+дек 04, 2015 10:44:36 AM org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser parseInterceptUrlsForFilterInvocationRequestMap
+INFO: Creating access control expression attribute 'isAuthenticated()' for /events/*/unassign
+дек 04, 2015 10:44:36 AM org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser parseInterceptUrlsForFilterInvocationRequestMap
+INFO: Creating access control expression attribute 'isAuthenticated()' for /users/*/events
+дек 04, 2015 10:44:36 AM org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser parseInterceptUrlsForFilterInvocationRequestMap
+INFO: Creating access control expression attribute 'isAuthenticated()' for /users/subscribe
+дек 04, 2015 10:44:36 AM org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser parseInterceptUrlsForFilterInvocationRequestMap
+INFO: Creating access control expression attribute 'isAuthenticated()' for /users/unsubscribe
+дек 04, 2015 10:44:36 AM org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser parseInterceptUrlsForFilterInvocationRequestMap
+INFO: Creating access control expression attribute 'permitAll()' for /**
+дек 04, 2015 10:44:37 AM org.springframework.security.config.http.AuthenticationConfigBuilder createLoginPageFilterIfNeeded
+INFO: No login page configured. The default internal one will be used. Use the 'login-page' attribute to set the URL of the login page.
+дек 04, 2015 10:44:37 AM org.springframework.security.config.http.HttpSecurityBeanDefinitionParser checkFilterChainOrder
+INFO: Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, Root bean: class [org.springframework.security.web.header.HeaderWriterFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 500, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 700, &lt;org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0&gt;, order = 1100, Root bean: class [org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1600, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2000, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2100, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2200, &lt;org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0&gt;, order = 2300]
+дек 04, 2015 10:44:37 AM org.springframework.web.context.support.GenericWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7f5c69cb: startup date [Fri Dec 04 10:44:37 EET 2015]; root of context hierarchy
+дек 04, 2015 10:44:41 AM org.springframework.context.support.PropertySourcesPlaceholderConfigurer loadProperties
+INFO: Loading properties file from URL [file:/E:/Dropbox/Dropbox/Java/itevents-travis/restservice/build/resources/main/local.properties]
+дек 04, 2015 10:44:41 AM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor &lt;init&gt;
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+дек 04, 2015 10:44:41 AM org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler#0' of type [class org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+дек 04, 2015 10:44:41 AM org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean '(inner bean)#48f3006d' of type [class org.springframework.security.access.expression.method.ExpressionBasedAnnotationAttributeFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+дек 04, 2015 10:44:41 AM org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean '(inner bean)#64e7adf4' of type [class org.springframework.security.access.prepost.PrePostAnnotationSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+дек 04, 2015 10:44:41 AM org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0' of type [class org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+дек 04, 2015 10:44:41 AM org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker postProcessAfterInitialization
+INFO: Bean 'org.springframework.security.methodSecurityMetadataSourceAdvisor' of type [class org.springframework.security.access.intercept.aopalliance.MethodSecurityMetadataSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+дек 04, 2015 10:44:45 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.postgresql.Driver
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/events/{event_id}/assign],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.assign(int)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/events/{event_id}/unassign],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity org.itevents.controller.EventRestController.unassign(int)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/events/{event_id}/visitors],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;org.itevents.model.User&gt;&gt; org.itevents.controller.EventRestController.getUsersByEvent(int)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/events/{event_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity&lt;org.itevents.model.Event&gt; org.itevents.controller.EventRestController.getEventById(int)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.util.List&lt;org.itevents.model.Event&gt; org.itevents.controller.EventRestController.getFilteredEvents(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String org.itevents.controller.IndexController.printWelcome(org.springframework.ui.ModelMap)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[//admin],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String org.itevents.controller.IndexController.onlyForAdmin(org.springframework.ui.ModelMap)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/users/{user_id}/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;org.itevents.model.Event&gt;&gt; org.itevents.controller.UserRestController.getEventsByUser(int)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/users/{user_id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity&lt;org.itevents.model.User&gt; org.itevents.controller.UserRestController.getUserById(int)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/users/logout],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public void org.itevents.controller.UserRestController.logout()
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/users/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public void org.itevents.controller.UserRestController.login()
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/users/register],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.registerNewSubscriber(java.lang.String,java.lang.String)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/users/subscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.activateSubscription(org.itevents.wrapper.FilterWrapper)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/users/unsubscribe],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity org.itevents.controller.UserRestController.deactivateSubscription()
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/events/{event_id}/register],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.String&gt; org.itevents.controller.VisitLogRestController.redirectToEventSite(int)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/v2/api-docs],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/swagger-resources],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/configuration/ui],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+дек 04, 2015 10:44:50 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped &quot;{[/configuration/security],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+дек 04, 2015 10:44:53 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7f5c69cb: startup date [Fri Dec 04 10:44:37 EET 2015]; root of context hierarchy
+дек 04, 2015 10:44:53 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7f5c69cb: startup date [Fri Dec 04 10:44:37 EET 2015]; root of context hierarchy
+дек 04, 2015 10:44:54 AM org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+дек 04, 2015 10:44:54 AM org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+дек 04, 2015 10:44:54 AM org.springframework.security.provisioning.JdbcUserDetailsManager initDao
+INFO: No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+дек 04, 2015 10:44:55 AM org.springframework.security.web.DefaultSecurityFilterChain &lt;init&gt;
+INFO: Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.SecurityContextPersistenceFilter@59e1e8a6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@849b762, org.springframework.security.web.header.HeaderWriterFilter@2317abc7, org.springframework.security.web.authentication.logout.LogoutFilter@1f0d06c2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@497f795d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c4835b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@129fee6a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65d3d1ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5754e99b, org.springframework.security.web.session.SessionManagementFilter@1afc9b4b, org.springframework.security.web.access.ExceptionTranslationFilter@777ddac0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c5a217b]
+дек 04, 2015 10:44:59 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:44:59 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:44:59 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 42 ms
+дек 04, 2015 10:45:00 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:00 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:00 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 5 ms
+дек 04, 2015 10:45:01 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:01 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:01 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 5 ms
+дек 04, 2015 10:45:01 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:01 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:01 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 13 ms
+дек 04, 2015 10:45:02 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:02 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:02 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 3 ms
+дек 04, 2015 10:45:02 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:02 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:02 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 4 ms
+дек 04, 2015 10:45:04 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:04 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:04 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 3 ms
+дек 04, 2015 10:45:04 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:04 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:04 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 7 ms
+дек 04, 2015 10:45:04 AM org.springframework.web.servlet.PageNotFound noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/logout] in DispatcherServlet with name ''
+дек 04, 2015 10:45:05 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+дек 04, 2015 10:45:05 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+дек 04, 2015 10:45:05 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 4 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.8</a> at 4 груд. 2015 10:45:39</p>
+</div>
+</div>
+</body>
+</html>
